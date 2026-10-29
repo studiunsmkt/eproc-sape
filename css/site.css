@@ -186,6 +186,10 @@ h1, h2, h3 { font-family: var(--fonte-titulo); font-weight: 750; letter-spacing:
 }
 .tela-video__capa:hover .tela-video__botao { background: var(--petroleo-2); }
 .tela-video__nota { margin: 10px 0 0; font-size: .88rem; color: var(--texto-suave); }
+.tela-video__botao { white-space: nowrap; }
+@media (max-width: 760px) {
+  .tela-video__botao { font-size: 1.05rem; padding: 8px 18px; gap: 8px; border-width: 2px; box-shadow: 3px 3px 0 var(--ocre-escuro); }
+}
 @media (max-width: 760px) { .tela-video__moldura { padding: 4px; border-radius: 6px; box-shadow: 4px 4px 0 var(--petroleo); } }
 
 /* Aviso de direitos perto dos materiais */
