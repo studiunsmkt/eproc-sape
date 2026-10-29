@@ -1,0 +1,6 @@
+# Vídeo do INPUT: material de uso restrito, não vai para o repositório.
+# A cópia do site fica em media/ só nesta pasta e no servidor.
+media/*.mp4
+__pycache__/
+# Notas internas da Studiuns (pendências e decisões): ficam só no computador
+LEIA-ME.md
